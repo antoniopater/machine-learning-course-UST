@@ -34,10 +34,10 @@ To set up and run this project locally, follow the steps below:
    cd machine-learning-UST-course
    ```
  1.a (Optimal) Create a virtual environment
- ```bash
-  python -m venv venv
-  source venv/bin/activate
-```
+    ```bash
+     python -m venv venv
+     source venv/bin/activate
+      ```
 2. Install required packages
    ```bash
    pip install -r requirements.txt
@@ -46,3 +46,9 @@ To set up and run this project locally, follow the steps below:
    ```bash
    jupyter notebook
    ```
+
+--- 
+## 📌 Topics Covered
+This README will be updated regularly with new tasks and the methods used to solve them.
+
+---
