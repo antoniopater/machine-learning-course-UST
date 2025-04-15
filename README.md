@@ -52,3 +52,53 @@ To set up and run this project locally, follow the steps below:
 This README will be updated regularly with new tasks and the methods used to solve them.
 
 ---
+# Lab01 – Regression Models Evaluation
+
+This assignment focuses on the implementation and evaluation of multiple regression models using Python and scikit-learn. The main objective is to compare different regression approaches on a synthetically generated dataset, highlighting their strengths and weaknesses—particularly regarding model complexity, overfitting, and generalization ability.
+
+---
+
+## Implemented Models
+
+- **Linear Regression**  
+- **K-Nearest Neighbors Regression**  
+- **Polynomial Regression**
+
+---
+
+## Project Structure
+
+All models are encapsulated in a reusable class called `Regressions`, which provides the following key functionalities:
+
+- **Data Handling**  
+  Loads the dataset (`dane_do_regresji.csv`) and splits it into training and test sets using `train_test_split`.
+
+- **Model Training**  
+  Provides methods to initialize, train, and evaluate models:
+  - `linear_model()`
+  - `knn_model()`
+  - `poly_model()`
+
+- **Performance Evaluation**  
+  Computes Mean Squared Error (MSE) for both training and test sets to evaluate model performance and detect potential overfitting.
+
+- **Model Management**  
+  Stores trained models and their configurations in a list, allowing for easy access, export, or reuse.
+
+---
+
+##  Technologies Used
+
+- Python 3.11  
+- scikit-learn – regression algorithms and evaluation metrics  
+- NumPy & Pandas – data generation and manipulation  
+- Matplotlib – data visualization  
+- Jupyter Notebook – experimentation and presentation  
+
+---
+
+## ▶ How to Run
+
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
